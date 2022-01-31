@@ -15,10 +15,11 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <!-- Vendor CSS Files -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
@@ -43,12 +44,15 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home bx-tada-hover"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user bx-tada-hover"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank bx-tada-hover"></i> <span>Resume</span></a>
+        </li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content bx-tada-hover"></i>
+            <span>Portfolio</span></a></li>
         <!-- <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope bx-tada-hover"></i> <span>Contact</span></a>
+        </li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -62,9 +66,13 @@
       </div>
       <p>I'm <span class="typed" data-typed-items="React Developer, Front-end Developer"></span></p>
       <div class="social-links">
-        <a href="https://www.instagram.com/m2kishore/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/m2kishore/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/M2kishore" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/m2kishore/" target="_blank" class="instagram"><i
+            class="bx bxl-instagram bx-tada-hover"></i></a>
+        <a href="https://www.linkedin.com/in/m2kishore/" target="_blank" class="linkedin"><i
+            class="bx bxl-linkedin bx-tada-hover"></i></a>
+        <a href="https://github.com/M2kishore" target="_blank" class="github"><i class="bx bxl-github bx-tada-hover"></i></a>
+        <a href="https://stackoverflow.com/users/13623016/m2kishore" target="_blank" class="stackoverflow"><i
+            class="bx bxl-stack-overflow bx-tada-hover"></i></a>
       </div>
       <h5>Do you want to know what I am doing currently?</h5>
       <h6><a
@@ -409,6 +417,39 @@
                 <div class="portfolio-links">
                   <a href="./portfolio/web/corelab/portfolio.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The CORE Lab"><i class="bx bx-plus"></i></a>
                   <a href="./portfolio/web/corelab/portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./portfolio/web/martial_arts_simulator/portfolio.png" class="img-fluid"
+                alt="martial-arts-simulator-image">
+              <div class="portfolio-info">
+                <h4>Martial Arts Simulator</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a href="./portfolio/web/martial_arts_simulator/portfolio.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Martial Arts Simulator"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/web/martial_arts_simulator/portfolio-details.html" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Simulator Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./portfolio/web/WEB101/portfolio.png" class="img-fluid" alt="martial-arts-simulator-image">
+              <div class="portfolio-info">
+                <h4>WD101 Final Milestone Project(portfolio)</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a href="./portfolio/web/WEB101/portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Simple portfolio with everything learnt in the course"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/web/WEB101/portfolio-details.html" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
